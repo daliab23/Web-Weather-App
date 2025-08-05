@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vremea Online</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <div id="left-side">
+                <img src="icons/meteorology.png" alt="Icon meteorology" id="logo">
+                 <h1>Vremea pe 14 zile</h1>
+            </div>
+           
+            <div id="inputs">
+                <input type="text"id='search-bar'>
+                <button id="getWeather-btn" onclick="getWeatherUI()">Search</button>
+            </div>
+        </div>
+
+        <div class="body-wrapper">
+            <h2 id="city"></h2>
+            <div class="body"></div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
